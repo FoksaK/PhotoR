@@ -15,6 +15,15 @@ namespace PhotoR
             Load(ref Image, uri);
 
             Console.WriteLine(Image.GetPixel(0, 0));
+
+            if (Exist(0, 0, Image))
+            {
+                Console.WriteLine("Ano");
+            }
+            else
+            {
+                Console.WriteLine("Ne");
+            }
         }
     }
 }
