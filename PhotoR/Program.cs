@@ -16,14 +16,27 @@ namespace PhotoR
 
             Console.WriteLine(Image.GetPixel(0, 0));
 
-            if (Exist(0, 0, Image))
-            {
-                Console.WriteLine("Ano");
-            }
-            else
-            {
-                Console.WriteLine("Ne");
-            }
+                if (Exist2(Image))
+                {
+                    Console.WriteLine("Ano");
+                }
+                else
+                {
+                    Console.WriteLine("Ne");
+                }
+
+                Console.WriteLine(s + " : " + d);
+                Console.WriteLine(Image.Width);
+                Console.WriteLine(Image.Height);
+
+                Strips(Image);
+
+                foreach (SKColor color in colors)
+                {
+                    Console.WriteLine(color);
+                }
+            
+           
         }
     }
 }

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AyRryKkXgSoeVKPcDZyqD6xVZMYVoxrc7mkuYgQsJFcbAuph3waTH9ZgZbZEtdBY0iSUjOrIut+fY9y+af1AZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vojta\\source\\repos\\PhotoR\\PhotoR\\PhotoR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vojta\\.nuget\\packages\\skiasharp\\1.68.3\\skiasharp.1.68.3.nupkg.sha512",
+    "C:\\Users\\vojta\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
